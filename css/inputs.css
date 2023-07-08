@@ -1,0 +1,146 @@
+.inactive {
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    line-height: 2em;
+    width: 180px;
+}
+.inactive::placeholder {
+    color: #d0d0d0;
+    padding: 10px;
+}
+
+.valid {
+    position: relative;
+    border: 1px solid #4ea657;
+    border-radius: 3px;
+    line-height: 2em;
+    width: 180px;
+    background: url(../icons/valid.png) no-repeat;
+    background-size: 8%;
+    background-position: 96% 50%;
+}
+.valid::placeholder {
+    color: #4ea657;
+    padding: 10px;
+}
+
+.invalid {
+    border: 1px solid #e56c6a;
+    border-radius: 3px;
+    line-height: 2em;
+    width: 180px;
+    background: url(../icons/invalid.png) no-repeat;
+    background-size: 8%;
+    background-position: 96% 50%;
+}
+.invalid::placeholder {
+    color: #e56c6a;
+    padding: 10px;
+}
+
+.checkbox-on {
+    display: none;
+
+}
+.checkbox {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    border: 1px solid #66c161;
+    border-radius: 2px;
+}
+.checkbox::before {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 8px;
+    background-color: #66c161;
+    border-radius: 1px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active-green {
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #66c161;
+    color: #fff;
+}
+.hover-green {
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #337930;
+    color: #fff;
+}
+.active-red {
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d9576f;
+    color: #fff;
+}
+.hover-red {
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #952054;
+    color: #fff;
+}
+.disabled {
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8f8f8f;
+    color: #fff;
+}
+.round-green {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    background-color: #66c161;
+    color: #fff;
+}
+.round-red {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    background-color: #d9576f;
+    color: #fff;
+}
+.textarea {
+    color: #d0d0d0;
+    padding: 10px;
+}
+
+
+
