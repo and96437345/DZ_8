@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/inputs.css">
+    <title>Library</title>
+    <link rel="stylesheet" href="css/library.css">
     <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
@@ -13,13 +13,29 @@
     <input class="valid" type="text" placeholder="valid text">
     <input class="invalid" type="text" placeholder="invalid text">
     <h2>Check boxes</h2>
-    <input class="checkbox-on" type="checkbox">
-    <span class="checkbox"></span>
-    <span>Subscribe</span>
-    <input class="checkbox-off" type="checkbox">Subscribe
+
+    <label class="checkbox-on">
+        <input class="checkbox" type="checkbox" checked="checked">
+        <span class="checkbox-fake"></span>
+        <span class="text">Subscribe</span>
+    </label>
+    <label class="checkbox-off">
+        <input class="checkbox" type="checkbox">
+        <span class="checkbox-fake"></span>
+        <span class="text">Subscribe</span>
+    </label>
     <h2>Radio buttons</h2>
-    <input class="radio-green" type="radio">
-    <input class="radio-green" type="radio">
+    <span>Gender:</span>
+    <label class="radio-button">
+        <input class="radio" type="radio" name="name1" checked="checked">
+        <span class="radio-fake"></span>
+        <span class="text">Male</span>
+    </label>
+    <label class="radio-button">
+        <input class="radio" type="radio" name="name1">
+        <span class="radio-fake"></span>
+        <span class="text">Female</span>
+    </label>
     <h2>Buttons</h2>
     <button class="active-green">Active</button>
     <button class="hover-green">Hover</button>
@@ -29,6 +45,6 @@
     <button class="round-green">+</button>
     <button class="round-red">-</button>
     <h2>Text area</h2>
-    <textarea class="textarea" id="" cols="50" rows="5">Enter some text</textarea>
+    <textarea class="textarea" id="" cols="60" rows="6" placeholder="Enter some text"></textarea>
 </body>
 </html>

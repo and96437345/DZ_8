@@ -11,3 +11,22 @@ button {
 h2 {
     margin-top: 50px;
 }
+.checkbox-on {
+    margin-right: 10px;
+}
+.radio-button {
+    margin-left: 10px;
+}
+.active-green:active, .round-green:active {
+    background-color: #75df70;
+}
+.hover-green:active {
+    background-color: #44a241;
+}
+.active-red:active, .round-red:active {
+    background-color: #e4778b;
+}
+.hover-red:active {
+    background-color: #b52968;
+}
+
