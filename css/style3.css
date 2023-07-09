@@ -1,0 +1,60 @@
+body,
+html {
+    background-color: #f1f1f1;
+}
+
+.container {
+    background-color: #ebebeb;
+    margin: 20px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.24);
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.form-control,
+.form-select {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+    background-color: #ebebeb;
+}
+.mb-3 {
+    display: flex;
+    align-items: center;
+}
+.registration,
+.personal {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.input {
+    margin-bottom: 30px;
+    /* border-bottom: 1px solid #c2c2c2; */
+}
+.form-check,
+.form-select {
+    margin-bottom: 15px;
+}
+
+.empty {
+    position: relative;
+    height: 40px;
+}
+.btn {
+    position: absolute;
+    right: 0;
+    background-color: #237f83;
+    width: 160px;
+    height: 36px;
+    border-radius: 2px;
+    border: #237f83;
+}
+.btn:hover {
+    background-color: #1e6a6e;
+}
